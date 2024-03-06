@@ -21,8 +21,8 @@ function create_prompt(text,textType) {
 const nota1 = create_prompt("Insira a nota do primeiro bimestre:",Number)
 const nota2 = create_prompt("Insira a nota do segundo bimestre:",Number)
 
-const pesoNota1 = 4/100;
-const pesoNota2 = 6/100;
+const pesoNota1 = 40/100;
+const pesoNota2 = 60/100;
 
 const media = (nota1 * pesoNota1 + nota2 * pesoNota2) 
 
