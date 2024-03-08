@@ -25,4 +25,4 @@ const salarioFuncionario = create_prompt("Digite o valor do salário fixo",Numbe
 const ValorCarroVendido = valorTotalVendas * 5/100;
 const salario =  valorTotalVendas + salarioFuncionario + ValorCarroVendido
 
-alert("O salário final do vendedor foi de  R$" + salario)
+alert(`O salário final do vendedor foi de  R$${salario}`)
